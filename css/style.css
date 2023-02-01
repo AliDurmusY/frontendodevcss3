@@ -1,0 +1,176 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    color: #000;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size:14px;
+  }
+  li a:hover {
+    text-decoration: underline;
+  }
+  .center{
+    text-align: center;
+  }
+  header{
+    margin-top: -70px;
+    position:relative;
+  }
+  .headerleft{
+    margin-top: -140px;
+    float: left;
+  }
+  .headerright{
+    margin-top: -140px;
+    float: right;
+  }
+  .karekutu{
+    height:23px;
+    position:relative;
+    bottom:4px;
+  }
+  .signbtn{
+    background-color: #4885ed;
+    color: #fff;
+    border:none;
+    border-radius:3px;
+    padding:7px 10px;
+    position:relative;
+    bottom:7px;
+    font-weight:bold;
+  }
+  .logo{
+    text-align: center;
+    margin-top:200px;
+    margin-bottom:20px;
+  }
+  .bar{
+    margin:0 auto;
+    width:575px;
+    border-radius:30px;
+    border:1px solid #939393;
+  }
+  .bar:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+  }
+  .bar:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline:none;
+  }
+  .searchbar{
+    height:45px;
+    border:none;
+    width:500px;
+    font-size:16px;
+    outline: none;
+    
+  }
+  .ses{
+    height:20px;
+    position:relative;
+    top:5px;
+    left:15px;
+  }
+  .G{
+    height:20px;
+    position:relative;
+  }
+  .al{
+    display: block;
+    position: relative;
+    top:10px;
+    right: -15px;
+    float: left;
+  }
+  .buton{
+    text-align: center;
+    margin-top:10px;
+  }
+  .btn{
+    background-color: #f5f5f5;
+    border:none;
+    color:#707070;
+    font-size:15px;
+    padding: 10px 20px;
+    margin:5px;
+    border-radius:4px;
+    outline:none;
+  }
+  .btn:hover{
+    border: 1px solid #c8c8c8;
+    padding: 9px 19px;
+    color:#808080;
+  }
+  .footer{
+    text-align: center;
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: #f0f2f5;
+}
+
+.footerleft{
+    text-align: center;
+    height: 50%;
+    display: flex;
+    color: #3c4043;
+}
+
+.footerleft-b{
+    width: 40%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.footerleft-b li{
+    display: inline-block;
+    margin-left: 23px;
+}
+
+.footerleft-b a{
+    text-decoration: none;
+    color: #3c4043;
+}
+
+.footerleft-b a:hover{
+    text-decoration:underline
+}
+
+.footermid{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerright{
+    width: 40%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.footerright li{
+    display: inline-block;
+    margin-right: 23px;
+}
+
+.footerright a{
+    text-decoration: none;
+    color: #3c4043;
+}
+
+.footerright a:hover{
+    text-decoration:underline
+}
